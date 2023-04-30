@@ -1,0 +1,442 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+ 
+
+main {
+	margin-top: 80px;
+}
+
+ 
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #f66;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.btn:hover {
+	background-color: #e60000;
+}
+
+/* Banner section styles */
+
+#banner {
+	background-image: url(banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+ 
+}
+
+/* About section styles */
+
+#about {
+	background-color: #f9f9f9;
+}
+/* 
+#about h2{
+    position: absolute;
+    left: 42.5%;
+    padding-top: 50px;
+} */
+
+hr{
+    margin-top: 20px;
+}
+/* 
+.about-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+} */
+
+/* .profile-pic {
+	flex-basis: 50%;
+	max-width: 400px;
+	margin-right: 50px;
+} */
+
+/* .profile-pic img {
+	display: block;
+	width: 80%;
+	border-radius: 50%;
+    height: 400px;
+} */
+/* 
+.bio {
+	flex-basis: 50%;
+} */
+
+.skills,
+.hobbies,
+.expertise {
+	margin-top: 50px;
+}
+
+.skills ul,
+.hobbies ul,
+.expertise ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills li,
+.hobbies li,
+.expertise li {
+	background-color: #f66;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/* Services section styles */
+
+#services {
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+#services p {
+	max-width: 600px;
+	margin: 0 auto 50px;
+}
+
+.social_media{
+    margin-left: 3px;
+}
+
+footer{
+    background-color: #161111;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 20px;
+    height: 170px;
+}
+
+#about_personality{
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#about_personality h2{
+    font-size: 30px;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    text-decoration: underline;
+} 
+/* 
+#babar_azam{
+   
+    margin-top: 40px;
+}
+
+#babar_azam h3{
+    text-align: left;
+}
+
+#babar_azam img{
+    width: 350px;
+    height: 300px;
+}
+
+#babar_azam p{
+    text-align: justify;
+}
+
+#babar_azam_p1{
+    margin-top: 25px;
+}
+
+#imran_khan{
+    display: flex;
+}
+
+#imran_khan h3{
+    text-align: left;
+    margin-top: 90px;
+}
+
+#imran_khan img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#imran_khan p{
+    text-align: justify;
+}
+
+#feroze_khan{
+    display: flex;
+    margin-top: 30px;
+}
+
+#feroze_khan h3{
+    text-align: left;
+    margin-top: 90px
+}
+
+#feroze_khan img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#feroze_khan p{
+    text-align: justify;
+} */
+/*  
+#lahore{
+    display: flex;
+    margin-top: 40px;
+}
+
+#lahore h3{
+    text-align: left;
+}
+
+#lahore img{
+    width: 300px;
+    height: 300px;
+}
+
+#lahore p{
+    text-align: justify;
+}
+
+#melbourne{
+    display: flex;
+}
+
+#melbourne h3{
+    text-align: left;
+    margin-top: 90px;
+}
+
+#melbourne img{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+#melbourne p{
+    text-align: justify;
+}
+
+#dubai{
+    display: flex;
+    margin-top: 30px;
+}
+
+#dubai h3{
+    text-align: left;
+    margin-top: 90px;
+}
+
+#dubai img{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+#dubai p{
+    text-align: justify;
+}
+
+#about_cities{
+    background-color: #f9f9f9;
+} */  
+
+.embeded_videos{
+    display: flex;
+    flex-wrap: wrap;
+/*    height: 300px;*/
+    justify-content: space-between;
+}
+
+.embeded_videos iframe{
+/*    height: 100;*/
+    width: 400px;
+    margin-right: 10px;
+    padding-top: 50px;
+}
+
+#Eifle_Tower{
+    display: flex;
+}
+
+#Eifle_Tower h3{
+    text-align: left;
+    margin-top: 130px;
+}
+
+#Eifle_Tower img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#Eifle_Tower p{
+    text-align: justify;
+}
+
+#Statue_Of_Liberty{
+    display: flex;
+}
+
+#Statue_Of_Liberty h3{
+    text-align: left;
+    margin-top: 140px;
+}
+
+#Statue_Of_Liberty img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#Statue_Of_Liberty p{
+    text-align: justify;
+}
+
+#Great_Wall_Of_China{
+    display: flex;
+}
+
+#Great_Wall_Of_China h3{
+    text-align: left;
+    margin-top: 130px;
+}
+
+#Great_Wall_Of_China img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#Great_Wall_Of_China p{
+    text-align: justify;
+}
+
+#Forbidden_City{
+    display: flex;
+}
+
+#Forbidden_City h3{
+    text-align: left;
+    margin-top: 140px;
+}
+
+#Forbidden_City img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#Forbidden_City p{
+    text-align: justify;
+}
+
+#Hunza_Valley{
+    display: flex;
+}
+
+#Hunza_Valley h3{
+    text-align: left;
+    margin-top: 140px;
+}
+
+#Hunza_Valley img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#Hunza_Valley p{
+    text-align: justify;
+}
+
+#Swat_Valley{
+    display: flex;
+}
+
+#Swat_Valley h3{
+    text-align: left;
+    margin-top: 160px;
+}
+
+#Swat_Valley img{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+#Swat_Valley p{
+    text-align: justify;
+}
+
+.contact_form{
+    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.contact_form li {
+    margin-bottom: 0.5em;
+}
